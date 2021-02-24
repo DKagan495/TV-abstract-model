@@ -11,7 +11,6 @@
     <context:component-scan base-package="By.Kagan.TeleFunctional"/>
 
     <bean id="teleBean" class="By.Kagan.TeleFunctional.Televisor">
-        <property name="function" ref="brightness-"/>
         <property name="brand" value="${televisor.Brand}"/>
         <property name="specs" value="${televisor.Specs}"/>
         <property name="cost" value="${televisor.Cost}"/>

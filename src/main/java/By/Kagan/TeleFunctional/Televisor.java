@@ -1,9 +1,16 @@
 package By.Kagan.TeleFunctional;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Televisor {
-    Function function;
+   private VolumePlus volumePlus;
     private String Brand, Specs;
     private int Cost;
+    @Autowired
+    public Televisor(VolumePlus volumePlus)
+    {
+        this.volumePlus = volumePlus;
+    }
     public String getBrand() {
         return Brand;
     }
@@ -28,11 +35,9 @@ public class Televisor {
         this.Cost = Cost;
     }
 
-    public void setFunction(Function function) {
-        this.function = function;
-    }
+
     public String getFunction()
     {
-        return function.getFunction();
+        return volumePlus.getFunction();
     }
 }
