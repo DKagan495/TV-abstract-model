@@ -8,5 +8,6 @@ java.util.Timer timer = new Timer();
 %>
 <%="Today is " + nowData%>
 <a href="myServlet">What about tele?</a>
+<a href="index.jsp">Obratno naxui</a>
 </body>
 </html>
