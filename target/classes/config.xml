@@ -8,15 +8,10 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
     <context:property-placeholder location="classpath:tele.properties"/>
-    <bean id="volPlusBean" class="By.Kagan.TeleFunctional.VolumePlus"></bean>
-    <bean id="volMinusBean" class="By.Kagan.TeleFunctional.VolumePlus"></bean>
-    <bean id="brightPlusBean" class="By.Kagan.TeleFunctional.VolumePlus"></bean>
-    <bean id="brightMinusBean" class="By.Kagan.TeleFunctional.VolumePlus"></bean>
-    <bean id="nextChBean" class="By.Kagan.TeleFunctional.VolumePlus"></bean>
-    <bean id="pastChBean" class="By.Kagan.TeleFunctional.VolumePlus"></bean>
+    <context:component-scan base-package="By.Kagan.TeleFunctional"/>
 
     <bean id="teleBean" class="By.Kagan.TeleFunctional.Televisor">
-        <property name="function" ref="${televisor.Function}Bean"/>
+        <property name="function" ref="brightness-"/>
         <property name="brand" value="${televisor.Brand}"/>
         <property name="specs" value="${televisor.Specs}"/>
         <property name="cost" value="${televisor.Cost}"/>

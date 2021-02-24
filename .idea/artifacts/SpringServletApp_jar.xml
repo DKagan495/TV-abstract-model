@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SpringServletApp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpringServletApp_jar</output-path>
+    <root id="archive" name="SpringServletApp.jar">
+      <element id="module-output" name="SpringServletApp" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.3/spring-core-5.3.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.3.3/spring-aop-5.3.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.3.3/spring-expression-5.3.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.3.3/spring-jcl-5.3.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.3/spring-beans-5.3.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.3/spring-context-5.3.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
