@@ -10,11 +10,7 @@
     <context:property-placeholder location="classpath:tele.properties"/>
     <context:component-scan base-package="By.Kagan.TeleFunctional"/>
 
-    <bean id="teleBean" class="By.Kagan.TeleFunctional.Televisor">
-        <property name="brand" value="${televisor.Brand}"/>
-        <property name="specs" value="${televisor.Specs}"/>
-        <property name="cost" value="${televisor.Cost}"/>
+    <bean id="teleBean" class="By.Kagan.TeleFunctional.Televisor"/>
 
-    </bean>
 
     </beans>

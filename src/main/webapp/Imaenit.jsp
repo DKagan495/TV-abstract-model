@@ -1,16 +1,8 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: hp
-  Date: 24.02.2021
-  Time: 19:15
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-    <title>Title</title>
-</head>
 <body>
-        <h1>What do you want to see here&</h1>
+<h1>Hello, my dear friend</h1>
+<h2>This is my little java application. I created this application with Servlets helps Spring Framework.</h2>
+<h3>I`m working with this app almost every day. Very big graphical and server update soon!</h3>
+<h6>Kagan @all rights reserved:D</h6>
 </body>
 </html>

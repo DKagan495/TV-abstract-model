@@ -7,7 +7,9 @@
 java.util.Timer timer = new Timer();
 %>
 <%="Today is " + nowData%>
-<a href="myServlet">What about tele?</a>
-<a href="index.jsp">Obratno naxui</a>
+<br> <a href="myServlet">What about tele?</a><br>
+<a href="index.jsp">Obratno naxui</a><br>
+<a href="Imaenit.jsp">Povezlo povezlo</a><br>
+<a href="PozhialayRifma.jsp">Почитать пожилой стишок</a>
 </body>
 </html>

@@ -22,7 +22,7 @@ public void doGet(HttpServletRequest request, HttpServletResponse response) thro
         out.println("<h2>" + "Cost: " + televisor.getCost() + "$" + "</h2>");
         out.println("<h2>" + "What does the televisor now?" + "</h2>");
         out.println("<h2>" + "" + televisor.getFunction()+ "</h2>");
-        out.println("<a href=index.jsp>"+"bratno naxui"+"</a>");
+        out.println("<a href=index.jsp>"+"0bratno naxui"+"</a>");
         out.println("<a href=Imaenit.jsp>"+"NEXT"+"</a>");
         out.println("</body></html>");
     }
